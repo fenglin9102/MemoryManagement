@@ -16,10 +16,6 @@
     return proxy;
 }
 
-- (void)doTask:(NSTimer *)timer {
-    NSLog(@"%s",__func__);
-}
-
 - (NSMethodSignature *)methodSignatureForSelector:(SEL)sel {
     return [_target methodSignatureForSelector:sel];
 }
